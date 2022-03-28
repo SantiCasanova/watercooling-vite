@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+  width: 600px;
+  height: 110px;
+}
+
+.bar {
+  width: 100%;
+  height: 52px;
+  border-radius: 6px;
+  border: 1px solid rgb(184, 184, 184);
+  background-color: transparent;
+  position: relative;
+}
+
+.filledBar {
+  height: 50px;
+  border-radius: 6px;
+  background: linear-gradient(
+    90deg,
+    rgba(99, 0, 95, 1) 0%,
+    rgba(255, 0, 247, 1) 100%
+  );
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.newStatistics {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgba(202, 202, 202, 0.397);
+  bottom: 25px;
+}
+
+.oldStatistics {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgba(202, 202, 202, 0.397);
+  align-self: flex-end;
+}
+
+.title {
+  color: rgba(202, 202, 202, 0.397);
+  font-weight: 700;
+  font-size: 20px;
+}

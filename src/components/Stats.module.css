@@ -1,0 +1,74 @@
+.container {
+  height: calc(100vh - 60px);
+  width: auto;
+  margin-top: 50px;
+}
+.title {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  margin-left: 150px; /* ACORDATE QUE ESTA ESTO PELOTUDO */
+}
+
+.square {
+  background-color: blueviolet;
+  width: 25px;
+  height: 25px;
+}
+
+.titleText {
+  margin-left: 20px;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+}
+
+.percentages {
+  font-size: 100px;
+  font-weight: 700;
+  background: -webkit-linear-gradient(rgb(255, 172, 248), rgb(146, 0, 190));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text {
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+}
+
+.bottomPart {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 300px;
+}
+
+.bottomPartTitle {
+  margin-top: 50px;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.bottomPartText {
+  color: white;
+}
