@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion'
-import React from 'react'
 import styles from './Home.module.css'
 import Stats from '../components/Stats'
 // SANTI DEL FUTURO ACORDATE DE ARREGLAR LOS MARGENES TOTALES DE LA PAGINA

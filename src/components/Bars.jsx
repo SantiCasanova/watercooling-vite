@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 import styles from './Bars.module.css'
 
@@ -11,12 +10,12 @@ function Bars() {
           <motion.span
             className={styles.filledBar}
             initial={{ width: '600px' }}
-            animate={{ width: '350px' }}
+            whileInView={{ width: '350px' }}
             transition={{ duration: 1.5, ease: 'easeInOut' }}
           >
             <motion.p
               initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              whileInView={{ opacity: 1 }}
               transition={{ duration: 1.5 }}
               className={styles.newStatistics}
             >
@@ -33,12 +32,12 @@ function Bars() {
           <motion.span
             className={styles.filledBar}
             initial={{ width: '600px' }}
-            animate={{ width: '450px' }}
+            whileInView={{ width: '450px' }}
             transition={{ duration: 1.5, ease: 'easeInOut' }}
           >
             <motion.p
               initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              whileInView={{ opacity: 1 }}
               transition={{ duration: 1.5 }}
               className={styles.newStatistics}
             >
@@ -55,12 +54,12 @@ function Bars() {
           <motion.span
             className={styles.filledBar}
             initial={{ width: '600px' }}
-            animate={{ width: '300px' }}
+            whileInView={{ width: '300px' }}
             transition={{ duration: 1.5, ease: 'easeInOut' }}
           >
             <motion.p
               initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              whileInView={{ opacity: 1 }}
               transition={{ duration: 1.5 }}
               className={styles.newStatistics}
             >

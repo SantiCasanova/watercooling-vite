@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Stats.module.css'
 import { motion } from 'framer-motion'
 import Bars from './Bars'
@@ -9,7 +8,7 @@ function Stats() {
       <div className={styles.title}>
         <motion.span
           initial={{ opacity: 0 }}
-          animate={{ opacity: [1, 0, 1, 0, 1, 0, 1] }}
+          whileInView={{ opacity: [1, 0, 1, 0, 1, 0, 1] }}
           transition={{ duration: 1 }}
           className={styles.square}
         />
