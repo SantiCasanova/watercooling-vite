@@ -1,11 +1,9 @@
 import { motion } from 'framer-motion'
-import styles from './Home.module.css'
-import Stats from '../components/Stats'
-// SANTI DEL FUTURO ACORDATE DE ARREGLAR LOS MARGENES TOTALES DE LA PAGINA
-// CON EL VIDEO DE TIK TOK QUE GUARDASTE, NAZI
+import styles from './BannerOne.module.css'
+
 function Home() {
   return (
-    <div className={styles.home}>
+    <div>
       <div className={styles.background}>
         <motion.div
           initial={{ opacity: 0 }}
@@ -21,7 +19,6 @@ function Home() {
           <img src='/9zbuild.png' className={styles.image}></img>
         </motion.div>
       </div>
-      <Stats />
     </div>
   )
 }

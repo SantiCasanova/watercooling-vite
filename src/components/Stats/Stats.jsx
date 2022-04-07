@@ -1,19 +1,11 @@
 import styles from './Stats.module.css'
-import { motion } from 'framer-motion'
 import Bars from './Bars'
+import Title from '../utilities/Title'
 
 function Stats() {
   return (
     <div className={styles.container}>
-      <div className={styles.title}>
-        <motion.span
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: [1, 0, 1, 0, 1, 0, 1] }}
-          transition={{ duration: 1 }}
-          className={styles.square}
-        />
-        <span className={styles.titleText}>WHY CUSTOM COOLING?</span>
-      </div>
+      <Title text='WHY CUSTOM COOLING?' margin={140} />
       <div className={styles.stats}>
         <div className={styles.item}>
           <span className={styles.percentages}>25%</span>
@@ -33,13 +25,13 @@ function Stats() {
         <div className={styles.leftSide}>
           <span className={styles.bottomPartTitle}>PROVEN PERFORMANCE</span>
           <p className={styles.bottomPartText}>
-            Hydro X Series custom cooling helps push your system's performance
-            as far as it can go, while lowering temperatures and noise levels
-            CPUs and graphics cards run hot under heavy load. While gaming, this
-            heat causes air cooler fans to run at a very high speed, producing
-            noise. Unlike air coolers, water cooling doesn't blow hot air around
-            your case. The liquid moves heat to the radiators, and efficiently
-            blows it out of your case. This means you can run fans at much lower
+            Hydro X Series custom cooling helps push your systems performance as
+            far as it can go, while lowering temperatures and noise levels CPUs
+            and graphics cards run hot under heavy load. While gaming, this heat
+            causes air cooler fans to run at a very high speed, producing noise.
+            Unlike air coolers, water cooling doesnt blow hot air around your
+            case. The liquid moves heat to the radiators, and efficiently blows
+            it out of your case. This means you can run fans at much lower
             speeds, reducing noise output while still keeping unmatched cooling
             performance. Moving the cooling to radiators outside the usual hot
             zones also gives you much better overclocking capabilities.

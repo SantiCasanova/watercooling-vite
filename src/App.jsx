@@ -1,17 +1,17 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Home from './pages/Home'
-import OurServices from './pages/OurServices'
-import { Routes, Route } from 'react-router-dom'
+import Navbar from './components/NavBar/Navbar'
+import Stats from './components/Stats/Stats'
+import BannerOne from './components/BannerOne/BannerOne'
+// import OurWorks from './components/OurWorks/OurWorks'
+import OurServices from './components/OurServices/OurServices'
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='ourservices' element={<OurServices />} />
-      </Routes>
+      <BannerOne />
+      <Stats />
+      {/* <OurWorks /> */}
+      <OurServices />
     </div>
   )
 }

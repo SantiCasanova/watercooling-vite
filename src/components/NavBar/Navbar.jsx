@@ -7,7 +7,7 @@ function Navbar() {
       <Link to='/' className={styles.option}>
         <img src='/logo.png' className={styles.logo} />
       </Link>
-      <Link to='/' className={styles.option}>
+      <Link to='/watercooling' className={styles.option}>
         Water Cooling
       </Link>
       <Link to='/' className={styles.option}>

@@ -1,0 +1,40 @@
+.services {
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: auto;
+}
+
+.servicesNav {
+  display: flex;
+}
+
+.disabledOption {
+  width: 300px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 25px;
+  color: white;
+  border-bottom: 1px solid grey;
+  transition-duration: 1s;
+}
+
+.activeOption {
+  width: 300px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 25px;
+  color: white;
+  border-bottom: 1px solid rgba(197, 7, 245, 1);
+  transition-duration: 1s;
+}
