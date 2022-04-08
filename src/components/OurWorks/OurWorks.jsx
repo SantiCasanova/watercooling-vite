@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 function BannerTwo() {
   return (
     <div className={styles.bannerTwo}>
-      <Title text='NUESTROS TRABAJOS' />
+      <Title text='NUESTROS TRABAJOS' marginLeft={140} />
       <div className={styles.box}>
         <motion.img
           className={styles.image}

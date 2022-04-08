@@ -4,7 +4,13 @@ import { motion } from 'framer-motion'
 function Title(props) {
   return (
     <div>
-      <div className={styles.title} style={{ marginLeft: props.margin || 0 }}>
+      <div
+        className={styles.title}
+        style={{
+          marginLeft: props.marginLeft || 0,
+          paddingTop: props.paddingTop || 0
+        }}
+      >
         <motion.span
           initial={{ opacity: 0 }}
           whileInView={{ opacity: [1, 0, 1, 0, 1, 0, 1] }}

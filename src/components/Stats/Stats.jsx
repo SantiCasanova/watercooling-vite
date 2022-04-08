@@ -5,7 +5,7 @@ import Title from '../utilities/Title'
 function Stats() {
   return (
     <div className={styles.container}>
-      <Title text='WHY CUSTOM COOLING?' margin={140} />
+      <Title text='WHY CUSTOM COOLING?' marginLeft={140} />
       <div className={styles.stats}>
         <div className={styles.item}>
           <span className={styles.percentages}>25%</span>

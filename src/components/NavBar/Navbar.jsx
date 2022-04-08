@@ -10,16 +10,13 @@ function Navbar() {
       <Link to='/watercooling' className={styles.option}>
         Water Cooling
       </Link>
-      <Link to='/' className={styles.option}>
+      <Link to='/modding' className={styles.option}>
         Modding
       </Link>
-      <Link to='/' className={styles.option}>
+      <Link to='/hardware' className={styles.option}>
         Hardware
       </Link>
-      <Link to='/' className={styles.option}>
-        Servicios
-      </Link>
-      <Link to='/' className={styles.option}>
+      <Link to='/faq' className={styles.option}>
         FAQ
       </Link>
     </nav>

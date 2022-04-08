@@ -1,5 +1,5 @@
 .container {
-  height: calc(95vh - 60px);
+  height: calc(100vh - 120px);
   width: auto;
   margin-top: 50px;
 }
